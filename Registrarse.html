@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="D4RK 3NT3RPR1S3">
+    <meta name="fecha" content="18-10-2024">
+    <meta name="PROYECTO/RETO" content="RETO-1">
+    <meta name="keywords" content="libros, biblioteca, autores, literatura, lectura">
+    <title>Biblioteca municipal</title>
+    <link rel="shortcut icon" href="imagenes/Iconos/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos_re.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Biblioteca Municipal de Muskiz
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">¿Nosotros?</a></li>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="service.html">Servicios</a></li>
+                <li><a href="normas.html">Normas</a></li>
+                <li><a href="Inicio sesion.html">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Regístrate</h2>
+        <form>
+            <div>
+            <label for="user">*Introduce un nombre de usuario: </label><br>
+            <input type="text" id="Usuario" required/>
+            </div>
+            <div>
+                <label for="password">*Introduce una contraseña: </label><br>
+                <input type="password" id="Contraseña" required/>
+                <!-- Se pone required para que sea obligatorio el campo en caso de querer registrarse -->
+            <div>
+                <!-- Se usa tipo password para que no se muestre en pantalla la contraseña -->
+                <label for="password">*Vuelve a introducir la contraseña: </label><br>
+                <input type="password" id="Contraseña2" required/>
+            </div>
+            <div>
+                <label for="user">Introduce tu correo: </label><br>
+                <!-- Se usa el tipo email para que sea obligatorio meter un @ -->
+                <input type="email" id="correo">
+            </div>
+            <p>*=obligatorio</p>
+            <button type="submit" id="Registrate" href="Inicio sesion.html">Registrarse</button>
+        </form>
+    </section>
+</body>
